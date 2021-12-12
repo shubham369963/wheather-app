@@ -71,4 +71,4 @@ function getcurrenttime() {
   return `${month} ${date} | ${hours}:${mins} ${periods}`;
 }
 
-curreD.innerHTML = getCurrentDay() + '|' + getcurrenttime();
+curreD.innerText = `${getCurrentDay()}|${getcurrenttime()}`;
